@@ -10,8 +10,3 @@ class Volo extends Gambe{
     }
 }
 
-class Cammina extends Gambe {
-    public function move() {
-        echo "Cammino a 100km/h! ";
-    }
-}

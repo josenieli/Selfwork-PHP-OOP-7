@@ -1,17 +1,12 @@
 <?php
 
 abstract class Braccia{
-    abstract public function attack1();
+    abstract public function attack();
 }
 
 class Raggio extends Braccia{
-    public function attack1(){
+    public function attack(){
         echo "Zium zium! ";
     }
 }
 
-class Pugno extends Braccia {
-    public function attack1() {
-        echo "Pugno repulsore! ";
-    }
-}
