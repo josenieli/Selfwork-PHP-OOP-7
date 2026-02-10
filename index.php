@@ -1,5 +1,4 @@
 <?php
-require('gambe.php');
 require('braccia.php');
 require('defense.php');
 
@@ -33,3 +32,4 @@ $ironman->ironmanDefense();
 echo Ironman::$counter . "\n";
 $ironman2 = new Ironman(new Raggio(), new Missili());
 echo Ironman::$counter . "\n";
+
